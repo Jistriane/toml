@@ -1,8 +1,0 @@
-[build]
-  publish = "public"
-  
-[[headers]]
-  for = "/.well-known/stellar.toml"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "text/plain"
